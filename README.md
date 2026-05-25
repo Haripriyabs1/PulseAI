@@ -41,6 +41,11 @@ PulseAI is a machine learning-based web application that predicts the risk of di
 
 ## 🏗️ Project Structure
 
+## 🏗️ Project Structure
+
+## 🏗️ Project Structure
+
+```
 PulseAI/
 │
 ├── app.py              # Streamlit web app
@@ -50,5 +55,6 @@ PulseAI/
 ├── scaler.pkl          # Scaler for preprocessing
 ├── requirements.txt    # Dependencies
 └── README.md           # Project documentation
+```
 
 ---
