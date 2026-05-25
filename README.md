@@ -41,10 +41,6 @@ PulseAI is a machine learning-based web application that predicts the risk of di
 
 ## 🏗️ Project Structure
 
-## 🏗️ Project Structure
-
-## 🏗️ Project Structure
-
 ```
 PulseAI/
 │
