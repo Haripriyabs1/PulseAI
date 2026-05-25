@@ -1,54 +1,54 @@
 # 🧠 PulseAI – Diabetes Risk Prediction App
 
-PulseAI is a machine learning-based web application that predicts the risk of diabetes using basic health parameters. It is built using **Python, Scikit-learn, and Streamlit**, and deployed as an interactive web app.
+PulseAI is a machine learning-based web application that predicts the risk of diabetes using basic health parameters such as glucose level, blood pressure, BMI, and age. It is built using Python, Scikit-learn, and Streamlit, and deployed as an interactive web app.
 
 ---
 
 ## 🚀 Live Demo
-👉 (Add your Streamlit link here after deployment)
 
-Example:
-https://your-app-name.streamlit.app
+👉 https://pulseai-hp.streamlit.app/
 
 ---
 
-## 📌 Project Overview
+## 📸 Project Preview
 
-This project uses a **Logistic Regression model** trained on a diabetes dataset to predict whether a person is at risk of diabetes based on:
+![alt text](image.png)
 
-- Glucose level
-- Blood Pressure
-- BMI (calculated from height and weight)
-- Age
-
-The app also provides a **risk probability score** for better interpretation.
+![alt text](image-1.png)
 
 ---
 
-## 🧠 Machine Learning Workflow
+## 📌 Features
 
-1. Load dataset (`diabetes.csv`)
-2. Select features:
-   - Glucose
-   - BloodPressure
-   - BMI
-   - Age
-3. Preprocess data using **StandardScaler**
-4. Split dataset into training and testing sets
-5. Train **Logistic Regression model**
-6. Evaluate model performance
-7. Save model and scaler using `joblib`
+- Simple Streamlit web interface  
+- Takes user health inputs  
+- Automatically calculates BMI  
+- Predicts diabetes risk in real time  
+- Shows probability score (%)  
+- Fast and lightweight ML model  
 
 ---
 
-## ⚙️ Tech Stack
+## 🧠 How It Works
 
-- Python 🐍
-- Pandas
-- Scikit-learn
-- Streamlit
-- Joblib
+- User enters health details  
+- BMI is calculated using height & weight  
+- Data is scaled using StandardScaler  
+- Logistic Regression model predicts outcome  
+- Result is displayed as Low / High risk  
 
 ---
 
-## 📁 Project Structure
+## 🏗️ Project Structure
+
+PulseAI/
+│
+├── app.py              # Streamlit web app
+├── train.py            # Model training script
+├── diabetes.csv        # Dataset
+├── model.pkl           # Trained ML model
+├── scaler.pkl          # Scaler for preprocessing
+├── requirements.txt    # Dependencies
+└── README.md           # Project documentation
+
+---
